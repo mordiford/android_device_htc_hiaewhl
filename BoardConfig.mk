@@ -16,9 +16,9 @@
 
 include device/htc/hiae-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/htc/hiaeuhl
+DEVICE_PATH := device/htc/hiaewhl
 
-TARGET_OTA_ASSERT_DEVICE := htc_hiaeuhl,hiaeuhl
+TARGET_OTA_ASSERT_DEVICE := htc_hiaewhl,hiaewhl
 
 # Filesystem
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
@@ -31,4 +31,4 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 11190403072
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
--include vendor/htc/hiaeuhl/BoardConfigVendor.mk
+-include vendor/htc/hiaewhl/BoardConfigVendor.mk

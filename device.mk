@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product-if-exists, vendor/htc/hiaeuhl/hiaeuhl-vendor.mk)
+$(call inherit-product-if-exists, vendor/htc/hiaewhl/hiaewhl-vendor.mk)
 $(call inherit-product, device/htc/hiae-common/hiae.mk)
 
 # Overlays

@@ -1,15 +1,15 @@
-$(call inherit-product, device/htc/hiaeuhl/full_hiaeuhl.mk)
+$(call inherit-product, device/htc/hiaewhl/full_hiaewhl.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_hiaeuhl
+PRODUCT_NAME := lineage_hiaewhl
 BOARD_VENDOR := htc
 TARGET_VENDOR := htc
-PRODUCT_DEVICE := hiaeuhl
+PRODUCT_DEVICE := hiaewhl
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE="htc_hiaeuhl" \
-    PRODUCT_NAME="hiaeuhl_00401" \
-    BUILD_FINGERPRINT="htc/hiaeuhl_00401/htc_hiaeuhl:6.0/MRA58K/635503.7:user/release-keys" \
-    PRIVATE_BUILD_DESC="1.10.401.7 CL635503 release-keys"
+    PRODUCT_DEVICE="htc_hiaewhl" \
+    PRODUCT_NAME="hiaewhl_00651" \
+    BUILD_FINGERPRINT="htc/hiaewhl_00651/htc_hiaewhl:6.0.1/MMB29M/688951.1:user/release-keys" \
+    PRIVATE_BUILD_DESC="1.57.651.1 CL688951 release-keys"

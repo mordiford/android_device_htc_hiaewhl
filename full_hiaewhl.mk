@@ -18,12 +18,12 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from hiaeuhl device
-$(call inherit-product, device/htc/hiaeuhl/device.mk)
+# Inherit from hiaewhl device
+$(call inherit-product, device/htc/hiaewhl/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_DEVICE := hiaeuhl
-PRODUCT_NAME := full_hiaeuhl
+PRODUCT_DEVICE := hiaewhl
+PRODUCT_NAME := full_hiaewhl
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := HTC One A9
 PRODUCT_MANUFACTURER := HTC
