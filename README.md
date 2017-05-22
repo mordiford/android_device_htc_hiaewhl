@@ -1,6 +1,6 @@
-Copyright 2016 - The CyanogenMod Project
+Copyright 2017 - The LineageOS Project
 
-Device configuration for HTC One A9 (International GSM)
+Device configuration for HTC One A9 (Sprint)
 =======================================================
 
 Basic   | Spec Sheet
