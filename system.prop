@@ -12,3 +12,11 @@ gsm.sim.operator.alpha=Sprint
 gsm.sim.operator.numeric=310120
 gsm.operator.alpha=Sprint
 gsm.operator.numeric=310120
+
+# Hardware Info
+ro.device.chipset=Qualcomm MSM8952 Snapdragon 617
+ro.device.cpu=Quad-core 1.5 GHz Cortex-A53 & Quad-core 1.2 GHz Cortex-A53
+ro.device.gpu=Adreno 405
+ro.device.rear_cam=13.0 MP
+ro.device.front_cam=4.0 MP
+ro.device.screen_res=1080x1920
